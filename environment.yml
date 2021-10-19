@@ -1,8 +1,9 @@
 name: amr-env
 channels:
-    - conda-forge
-    - bioconda
     - defaults
+    - bioconda
+    - conda-forge
+
 dependencies:
     - bwa=0.7.17-8
     - samtools=1.9-12
