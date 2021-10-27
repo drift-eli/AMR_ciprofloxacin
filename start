@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "export PATH=/home/jovyan/resfinder:/home/jovyan/ncbi-blast-2.12.0+/bin:$PATH" >> /home/jovyan/.bashrc
+exec "$@"
