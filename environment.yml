@@ -1,17 +1,10 @@
-name: amr-env
+name: bioconda
 channels:
-    - defaults
-    - bioconda
-    - conda-forge
-
+  - conda-forge
+  - bioconda
+  - defaults
 dependencies:
-    - bwa=0.7.17-8
-    - samtools=1.9-12
-    - bcftools=1.9-9
-    - kma=1.1.7-0
-    - staramr=0.7.2
-    - pandas=0.25.1
-    - scikit-learn=0.21.2
-    - numpy=1.16.5
-    - matplotlib=3.1.1
-    - wget=3.2
+  - bwa==0.7.17
+  - samtools==1.9
+  - bcftools==1.9
+  - kma==1.1.7
