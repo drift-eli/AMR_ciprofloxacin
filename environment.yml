@@ -17,7 +17,6 @@ dependencies:
     - wget==3.2
     - biopython
     - cgecore
-    - tensorflow==2.4.1
     - jupyterhub
     - jupyter_contrib_nbextensions
     - jupyterlab_github
