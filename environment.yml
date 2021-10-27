@@ -17,3 +17,10 @@ dependencies:
     - wget==3.2
     - biopython
     - cgecore
+    - tensorflow==2.4.1
+    - elyra>=2.0.1
+    - jupyterlab-lsp
+    - jupyter-dash
+    - jupyter_contrib_nbextensions
+    - jupyterlab_github
+    - jupyter_bokeh
