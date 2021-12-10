@@ -1,8 +1,0 @@
-#!/bin/bash
-git clone https://bitbucket.org/genomicepidemiology/resfinder.git
-cd resfinder && git checkout tags/3.1.0 -b 3.1.0 && cd ..
-
-wget https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/ncbi-blast-2.12.0+-x64-linux.tar.gz
-tar -xvzf ncbi-blast-2.12.0+-x64-linux.tar.gz
-
-jupyter lab build
